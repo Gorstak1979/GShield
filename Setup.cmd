@@ -55,5 +55,12 @@ for /f "tokens=*" %%D in ('dir /b /o:n *.msi') do (
     msiexec /i "%%D" /quiet /norestart
 )
 
+:: Step 12: Install EXE files
+echo Installing EXE files...
+for /f "tokens=*" %%E in ('dir /b /o:n *.msi') do (
+    echo Installing %%E...
+    Start "" "%%E"
+)
+
 echo Script completed successfully.
 exit
