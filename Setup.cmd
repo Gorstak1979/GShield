@@ -39,7 +39,6 @@ for /f "tokens=*" %%B in ('dir /b /o:n *.cmd') do (
 echo Executing Registry files...
 for /f "tokens=*" %%C in ('dir /b /o:n *.reg') do (
     echo Merging %%C...
-    powerrun reg import "%%C"
     reg import "%%C"
 )
 
