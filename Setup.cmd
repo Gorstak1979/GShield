@@ -48,18 +48,11 @@ pnputil.exe /add-driver *.inf /subdirs /install
 :: Step 10: Apply security baseline
 lgpo /g ./
 
-:: Step 11: Install MSI (.msi) files quietly
+:: Step 11: Install MSI files quietly
 echo Installing MSI files quietly...
 for /f "tokens=*" %%D in ('dir /b /o:n *.msi') do (
     echo Installing %%D...
     msiexec /i "%%D" /quiet /norestart
-)
-
-:: Step 12: Install EXE (.exe) files
-echo Installing EXE files...
-for /f "tokens=*" %%E in ('dir /b /o:n *.exe') do (
-    echo Installing %%E...
-    Start "" "%%E"
 )
 
 echo Script completed successfully.
