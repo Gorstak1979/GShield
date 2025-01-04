@@ -19,6 +19,7 @@ So what does the script do?
 12. It secures all known accounts from remote connecting to them
 13. It prevents remote thread execution attempts.
 14. It sets audio echo cancellation and noise suppression on all audio devices
+15. It does minor cosmetic tweaks, such as setting seconds and date in tray.
 
 Pls make sure you are admin and only user on your home pc as this is who the script is meant for. 
 Also, create a restore point prior to executing this script, as there is no uninstall.
