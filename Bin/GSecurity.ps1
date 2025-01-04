@@ -232,7 +232,7 @@ function RetaliateAgainstIntruder {
         Write-Host "Attempting to format the drive of $SuspiciousIP..." -ForegroundColor Red
         # Replace with a safer method if needed
     } catch {
-        Write-Host "Failed to retaliate against $SuspiciousIP: $_" -ForegroundColor Red
+        Write-Host "Failed to retaliate against ${SuspiciousIP}: $_" -ForegroundColor Red
     }
 }
 
@@ -262,6 +262,6 @@ function Run-Monitoring {
 }
 
 # Continuously run the script
-while ($true) {
+Start-Job -ScriptBlock {
     Run-Monitoring
 }
