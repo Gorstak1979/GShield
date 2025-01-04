@@ -223,7 +223,3 @@ for /f "tokens=*" %%A in ('reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSe
     )
 )
 echo PXE boot disabled for all network adapters.
-
-%windir%\System32\bcdedit /delete "{3512665e-b493-11ef-95ec-806e6f6e6963}"
-%windir%\System32\bcdedit /delete "{3512665f-b493-11ef-95ec-806e6f6e6963}"
-%windir%\System32\bcdedit /delete "{35126660-b493-11ef-95ec-806e6f6e6963}"
