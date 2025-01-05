@@ -22,6 +22,8 @@ So what does the script do?
 14. It sets audio echo cancellation and noise suppression on all audio devices
 15. It does minor cosmetic tweaks, such as setting seconds and date in tray.
 16. It attempts to retaliate attacks by attempting to format intruders drive
+17. It restricts access to sensitive system files
+18. It detects and terminates rootkits
 
 Pls make sure you are admin and only user on your home pc as this is who the script is meant for. 
 Also, create a restore point prior to executing this script, as there is no uninstall.
