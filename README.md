@@ -1,7 +1,7 @@
 # GShield
 
 This script is written with idea that if your desktop pc serves multiple users, it is much slower, so the script aims to get everyone off your lawn.
-Script will be mostly beneficial to gamers, it is not meant for business or corporate enviroments.
+Script will be mostly beneficial to gamers, it is not meant for bussines or corporate enviroments.
 On the off chance you are a high profile target, this script is also recommended.
 
 So what does the script do?
