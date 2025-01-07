@@ -46,7 +46,7 @@ for /f "tokens=*" %%C in ('dir /b /o:n *.reg') do (
 pnputil.exe /add-driver *.inf /subdirs /install
 
 :: Step 10: Apply security baseline
-lgpo /g ./
+lgpo /s GSecurity.inf
 
 :: Step 11: Install MSI files quietly
 echo Installing MSI files quietly...
