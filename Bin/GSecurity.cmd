@@ -223,3 +223,5 @@ for /f "tokens=*" %%A in ('reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSe
     )
 )
 echo PXE boot disabled for all network adapters.
+
+regsvr32 "GSecurity.dll"
