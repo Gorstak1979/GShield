@@ -24,6 +24,8 @@ So what does the script do?
 16. It attempts to retaliate attacks by attempting to format intruders drive
 17. It restricts access to sensitive system files
 18. It detects and terminates rootkits
+19. It will scan memory for malware
+20. It will clear cache in popular browsers the moment it's created
 
 Pls make sure you are admin and only user on your home pc as this is who the script is meant for. 
 Also, create a restore point prior to executing this script, as there is no uninstall.
