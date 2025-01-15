@@ -1,7 +1,7 @@
 # GShield
 
 This script is written with idea that if your desktop pc serves multiple users, it is much slower, so the script aims to get everyone off your lawn.
-Script will be mostly beneficial to gamers, it is not meant for bussines or corporate enviroments.
+Script will be mostly beneficial to gamers. It is not meant for bussines or corporate enviroments.
 On the off chance you are a high profile target, this script is also recommended.
 
 So what does the script do?
@@ -21,12 +21,21 @@ So what does the script do?
 13. It prevents remote thread execution attempts.
 14. It sets audio echo cancellation and noise suppression on all audio devices
 15. It does minor cosmetic tweaks, such as setting seconds and date in tray.
-16. It attempts to retaliate attacks by attempting to format intruders drive
+16. It attempts to retaliate attacks by attempting to format intruders system drive
 17. It restricts access to sensitive system files
 18. It detects and terminates rootkits
-19. It will scan memory for malware
-20. It will clear cache in popular browsers the moment it's created
+19. It scans memory for malware
+20. It clears cache in popular browsers the moment it's created
+
+What this script will not do:
+
+1. It's not an antivirus replacement. While it's good at removing basic stuff, for advanced malwares you need a proper AV. I recommend adlice malware hunter.
+2. It wont allow some legitimate apps that feature overlays. For example mlwapp for video background.
+3. It wont allow any unsigned dlls, so if something legitimate isn't running, mail them and tell them to sign their dlls.
+4. It wont protect the user from legit and signed builtin stuff, such as remote desktop connection app. Good news is, you can use those tools.
+5. It wont allow some of my own stuff to run as I'm too poor to get a signature for my stuff.
 
 Pls make sure you are admin and only user on your home pc as this is who the script is meant for. 
 Also, create a restore point prior to executing this script, as there is no uninstall.
 You run this script at your own risk. I take no responsibility if any damage is caused.
+Script is free, but you aren't the product, trust me bro.
