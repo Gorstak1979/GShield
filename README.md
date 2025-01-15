@@ -34,6 +34,7 @@ What this script will not do:
 3. It wont allow any unsigned dlls, so if something legitimate isn't running, mail them and tell them to sign their dlls.
 4. It wont protect the user from legit and signed builtin stuff, such as remote desktop connection app. Good news is, you can use those tools.
 5. It wont allow some of my own stuff to run as I'm too poor to get a signature for my stuff.
+6. If some of the stuff you downloaded isn't running, don't panic, it just means it's unsigned, not necessarily malware.
 
 Pls make sure you are admin and only user on your home pc as this is who the script is meant for. 
 Also, create a restore point prior to executing this script, as there is no uninstall.
