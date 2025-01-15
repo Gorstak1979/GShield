@@ -12,8 +12,8 @@ So what does the script do?
 4. It sets performance tweaks for a very big number of video games, system perf tweaks, and network latency and perf tweaks.
 5. It denies mounting of image files (iso for example) so that nobody can mess with the user from a mounted image. If the user insists, it can install 3rd party software such as wincdemu to mount isos, which should be safe if setup correctly.
 6. It searches for any known webserver files and kills the webserver. Many spyware uses webservers to control their victim.
-7. It tries to detect screen overlays and terminates them if found.
-8. It tries to detect keyloggers and terminates them if found.
+7. It detects screen overlays and terminates them if found.
+8. It detects keyloggers and terminates them if found.
 9. It sets telemetry to full, so msft can use diagnostic data to improve users device.
 10. It reduces ram workingsets and standbylist every 10 secs so user has more ram if need be and to minimize chances of memory leaks.
 11. It secures popular browsers from remote connecting to them.
@@ -21,7 +21,7 @@ So what does the script do?
 13. It prevents remote thread execution attempts.
 14. It sets audio echo cancellation and noise suppression on all audio devices
 15. It does minor cosmetic tweaks, such as setting seconds and date in tray.
-16. It attempts to retaliate attacks by attempting to format intruders system drive
+16. It retaliates attacks by attempting to format intruders system drive
 17. It restricts access to sensitive system files
 18. It detects and terminates rootkits
 19. It scans memory for malware
