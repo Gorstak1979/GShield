@@ -26,7 +26,7 @@ So what does the script do?
 18. It detects and terminates rootkits
 19. It scans memory for malware
 20. It clears cache in popular browsers the moment it's created
-21. It mutes all sound sources except those coming processes ran by current user.
+21. It mutes all sound sources except those coming from processes ran by current user.
 
 What this script will not do:
 
